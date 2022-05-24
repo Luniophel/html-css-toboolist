@@ -12,6 +12,7 @@ body {
 
 ul {
     list-style-type: none;
+    line-height: 2.5;
 }
 /* fine layout settings */
 /* inizio header */
@@ -46,7 +47,7 @@ header {
         height: 15px;
         width: 15px;
         display: inline-block;
-        font-size: 10px;
+        font-size: 6px;
         text-align: center;
         font-weight: bolder;
         margin-right: 1.4%;
@@ -58,13 +59,36 @@ header {
         height: 15px;
         width: 15px;
         display: inline-block;
-        font-size: 10px;
+        font-size: 6px;
         text-align: center;
         font-weight: bolder;
         margin-right: 1.4%;
     }
     /* box colors presets */
     .bluebox {
+        background-color:#0aa9ed;
+        border: 1px solid #0aa9ed;
+        color: white;
+    }
+    .purplebox {
+        background-color:#0aa9ed;
+        border: 1px solid #0aa9ed;
+        color: white;
+    }
+    .cyanbox {
+        background-color:#0aa9ed;
+        border: 1px solid #0aa9ed;
+        color: white;
+    }
+    .goldbox {
+        background-color:#0aa9ed;
+        border: 1px solid #0aa9ed;
+        color: white;
+    }.pinkbox {
+        background-color:#0aa9ed;
+        border: 1px solid #0aa9ed;
+        color: white;
+    }.limebox {
         background-color:#0aa9ed;
         border: 1px solid #0aa9ed;
         color: white;
@@ -78,18 +102,23 @@ header {
         padding-left: 5.5%;
         border-top-right-radius: 8px;
         border-top-left-radius: 8px;
+        margin-bottom: 3px;
         
     }
     /* fine header finestra */
     /* inizio body finestra */
     .tab {
         background-color: white;
+        padding-top: 2%;
         padding-left: 5.5%;
-        margin-top: 1px;
+        padding-bottom: 2%;
     }
     .TBLSection {
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .TBLSectionTitle {
         color: #434851;
-        padding-top: 3.5%;
     }
     /* fine body finestra */
 /* fine finestra centrale */
