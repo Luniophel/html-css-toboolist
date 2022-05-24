@@ -16,9 +16,9 @@ ul {
 /* fine page settings */
 /* inizio header */
 h1 {
-    padding-top: 1%;
-    padding-left: 3%;
-    padding-bottom: 1%;
+    padding-top: 0.8%;
+    padding-left: 1.5%;
+    padding-bottom: 0.8%;
 }
 header {
   background-color: white;
@@ -29,14 +29,14 @@ header {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5%;
+    margin-top: 3%;
 }
     /* inizio items */
     .btn {
       text-decoration: none;
       border: 1px solid #d2d8db;
-      padding: 3px;
-      border-radius: 3px;
+      padding: 5px;
+      border-radius: 5px;
       color: #d2d8db;
     }
     /* box colors presets */
@@ -49,9 +49,16 @@ header {
     /* inizio header finestra */
     .top {
         background-color: white;
+        border: 1px hidden;
+        padding-top: 1.6%;
+        padding-bottom: 1.6%;
+        padding-left: 5.5%;
+        border-top-right-radius: 8px;
+        border-top-left-radius: 8px;
         
     }
     /* fine header finestra */
     /* inizio body finestra */
+    
     /* fine body finestra */
 /* fine finestra centrale */
