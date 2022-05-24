@@ -1,4 +1,4 @@
-/* inizio page settings */
+/* inizio layout settings */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -13,7 +13,7 @@ body {
 ul {
     list-style-type: none;
 }
-/* fine page settings */
+/* fine layout settings */
 /* inizio header */
 h1 {
     padding-top: 0.8%;
@@ -39,6 +39,30 @@ header {
       border-radius: 5px;
       color: #d2d8db;
     }
+    .chk {
+        color: #34c8ae;
+        border: 1px solid #34c8ae;
+        border-radius: 50%;
+        height: 15px;
+        width: 15px;
+        display: inline-block;
+        font-size: 10px;
+        text-align: center;
+        font-weight: bolder;
+        margin-right: 1.4%;
+    }
+    .crss {
+        color: #ff2526;
+        border: 1px solid #ff2526;
+        border-radius: 50%;
+        height: 15px;
+        width: 15px;
+        display: inline-block;
+        font-size: 10px;
+        text-align: center;
+        font-weight: bolder;
+        margin-right: 1.4%;
+    }
     /* box colors presets */
     .bluebox {
         background-color:#0aa9ed;
@@ -49,7 +73,6 @@ header {
     /* inizio header finestra */
     .top {
         background-color: white;
-        border: 1px hidden;
         padding-top: 1.6%;
         padding-bottom: 1.6%;
         padding-left: 5.5%;
@@ -59,6 +82,14 @@ header {
     }
     /* fine header finestra */
     /* inizio body finestra */
-    
+    .tab {
+        background-color: white;
+        padding-left: 5.5%;
+        margin-top: 1px;
+    }
+    .TBLSection {
+        color: #434851;
+        padding-top: 3.5%;
+    }
     /* fine body finestra */
 /* fine finestra centrale */
