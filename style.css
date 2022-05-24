@@ -9,30 +9,48 @@ body {
   background-color: #f6f8f9;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+ul {
+    list-style-type: none;
+}
 /* fine page settings */
 /* inizio header */
-header {
-  background-color: white;
+h1 {
+    padding-top: 1%;
+    padding-left: 3%;
+    padding-bottom: 1%;
 }
-.container {
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5%;
+header {
   background-color: white;
 }
 /* fine header */
 /* inizio finestra centrale */
+.container {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
     /* inizio items */
     .btn {
       text-decoration: none;
-      border: 1px solid gray;
+      border: 1px solid #d2d8db;
       padding: 3px;
       border-radius: 3px;
+      color: #d2d8db;
+    }
+    /* box colors presets */
+    .bluebox {
+        background-color:#0aa9ed;
+        border: 1px solid #0aa9ed;
+        color: white;
     }
     /* fine items */
     /* inizio header finestra */
-
+    .top {
+        background-color: white;
+        
+    }
     /* fine header finestra */
     /* inizio body finestra */
     /* fine body finestra */
