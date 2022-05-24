@@ -64,6 +64,15 @@ header {
         font-weight: bolder;
         margin-right: 1.4%;
     }
+    .tag {
+        padding-top: 3px;
+        padding-left: 10px;
+        padding-bottom: 3px;
+        padding-right: 10px;
+        border-radius: 10px;
+        font-size: 12px;
+
+    }
     /* box colors presets */
     .bluebox {
         background-color:#0aa9ed;
@@ -71,26 +80,26 @@ header {
         color: white;
     }
     .purplebox {
-        background-color:#0aa9ed;
-        border: 1px solid #0aa9ed;
+        background-color:#ab5de6;
+        border: 1px solid #ab5de6;
         color: white;
     }
     .cyanbox {
-        background-color:#0aa9ed;
-        border: 1px solid #0aa9ed;
+        background-color:#2cc6ab;
+        border: 1px solid #2cc6ab;
         color: white;
     }
     .goldbox {
-        background-color:#0aa9ed;
-        border: 1px solid #0aa9ed;
+        background-color:#ff9c01;
+        border: 1px solid #ff9c01;
         color: white;
     }.pinkbox {
-        background-color:#0aa9ed;
-        border: 1px solid #0aa9ed;
+        background-color:#ec4a9d;
+        border: 1px solid #ec4a9d;
         color: white;
     }.limebox {
-        background-color:#0aa9ed;
-        border: 1px solid #0aa9ed;
+        background-color:#a3d117;
+        border: 1px solid #a3d117;
         color: white;
     }
     /* fine items */
@@ -112,6 +121,9 @@ header {
         padding-top: 2%;
         padding-left: 5.5%;
         padding-bottom: 2%;
+        margin-bottom: 30%;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
     }
     .TBLSection {
         margin-top: 2%;
